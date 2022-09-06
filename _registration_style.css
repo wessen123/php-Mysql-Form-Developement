@@ -1,0 +1,78 @@
+/* logo red R 218 G 37 B 29 #DA251D */
+* {font-family:Verdana, Geneva, Arial, helvetica, sans-serif; font-size:12pt; background-color: #F0F0F0;}
+body,h1,h2,h3,h4,h5,div,ul,li,a,img,p,strong,span {height:auto; margin:0; padding:0; border:none; background:none;}
+a:hover {cursor:pointer;}
+
+p {width:96%; margin:0 1% 0 1%; padding:0 1% 1% 1%; font-family:inherit;}
+h1 {display:block; font-size:2.6em; font-weight:bold; margin:1%; padding:1%;}
+h2 {display:block; font-size:1.25em; font-weight:bold; margin:0.5%; padding:0.5%;}
+h3 {display:inline; font-size:1.1em; margin:0; padding:0; font-weight:bold; color:#0000CC;}
+.ExtraH1 {display:block; font-size:2.6em; font-weight:bold; margin:1%; padding:1%;}
+
+strong {font-weight:bold;}
+.Wrapper {width:100%; min-width:360px; max-width:1500px; margin:0 auto;}
+.Header {width:96%; margin:0 auto; border-bottom:solid 2pt #000000;}
+.Logo {float:left; width:44%; padding:3%; text-align:center; clear:none;}
+.Banner {float:right; width:40%; padding:5%; text-align:center; clear:none;}
+.MainBody {width:80%; margin:0 auto; clear:both;}
+.ColLeft {float:left; width:46%; margin:1% 0 0 0; padding:1% 2% 1% 2%;}
+.ColRight {float:left; width:46%; margin:1% 0 0 0; padding:1% 2% 1% 2%;}
+.ColFullWidth {width:96%; margin:1% 0 0 0; padding:1% 2% 1% 2%; overflow:visible;}
+.Title {width:100%; text-align:center;}
+.Footer {width:100%; min-height:5.0em; clear:both;}
+.Response {display:block; width:86%; position:fixed; top:2%; left:5%; z-index:200; padding:2%; text-align:center; background-color:#CCCCCC;}
+.ResponseInner {width:100%; height:100%; min-height:190px; border:solid 2pt #FF0000; padding:5% 0 0 0;}
+
+.ImgLogo {width:50%;}
+
+.TextBoxNormal {display:block; width:96%; margin:0.5% 0.5% 0.8% 0; padding:0.5em; background:#FFFFFF; border:none; clear:both;}
+.TextBoxNorma {display:block; width:96%; margin:0.5% 0.5% 0.8% 0; padding:0.5em; background:#b01a1a; border:none; clear:both;}
+.TextBoxAuto {display:inline-block; width:98%; padding:0.5em 1% 0.5em 1%; background:#FFFFFF; border:none;}
+.TextArea {display:block; width:96%; height:5.0em; margin:0.5% 0.5% 0.8% 0; padding:0.5em; background:#FFFFFF; border:none; clear:both;}
+.TextAreaInfo {display:block; width:97.5%; height:7.0em; margin:0.5% 0.5% 1% 0; padding:1%; background:#FFFFFF; border:none; overflow-x:hidden; overflow-y:scroll; clear:both;}
+.DropNormal {display:block; width:99%; margin:0.5% 0.5% 0.8% 0; padding:0.45em; background:#FFFFFF; border:none; clear:both;}
+.DropNormal option {background:#FFFFFF; border:none;}
+.DropInline {width:auto; margin:0.5% 0.5% 0.8% 0; padding:0.5em; background:#FFFFFF; border:none;}
+.DropInline option {background:#FFFFFF; border:none;}
+.CheckNormal {display:inline-block; width:auto; margin:0.44% 0.5% 0% 0; padding:1.0em 0.5em 1.0em 0.5em; background:none; border:none;}
+.ButtonNormal {width:99%; max-width:700px; margin:1% 0 1% 0; padding:0.8em; border:none; background:#333333; color:#FFFFFF; text-transform:uppercase; font-size:1.1em;}
+.ButtonNormal:hover {cursor:pointer; background:#666666;}
+.LinkBlock {display:block; margin:2% auto 2% auto; text-decoration:none; color:#0000CC; text-align:center;}
+.LinkNormal {text-decoration:underline; color:#0000CC;}
+.LinkNormal:visited {color:#0000CC;}
+.TableFull {width:100%; min-width:780px; border-collapse:collapse; border:none; padding:0; margin:0;}
+.TableFull th {text-align:left; font-weight:bold; padding:0.5%; margin:0;}
+.TableFull td {text-align:left; padding:0.5% 0.5% 0 0; margin:0;}
+.A {width:20%;}
+.B {width:5%;}
+.C {width:15%;}
+.ulNormal {width:90%; margin:0 0 1% 5%;}
+.ulNormal li { list-style:disc; margin:0 0 2% 2%; padding:0;}
+
+.Notification {display:block; color:#FF0000; font-weight:bold;}
+.TextBold {font-weight:bold;}
+.ClearAll100 {width:100%; clear:both;}
+
+@media only screen and (min-width : 200px) {
+.Logo {float:none; width:96%; padding:2%; text-align:center; clear:both;}
+.Banner {float:none; width:90%; padding:2%; text-align:center; clear:both;}
+.ImgLogo {width:40%;}
+.ColLeft {float:none; width:96%; margin:0 0 0 0; padding:0 2% 0 2%;}
+.ColRight {float:none; width:96%; margin:0 0 0 0; padding:0 2% 0 2%;}
+}
+
+@media only screen and (min-width : 1090px) {
+.Logo {float:left; width:44%; padding:3%; text-align:center; clear:none;}
+.Banner {float:right; width:40%; padding:5%; text-align:center; clear:none;}
+.ImgLogo {width:50%;}
+.ColLeft {float:left; width:46%; margin:1% 0 0 0; padding:1% 2% 1% 2%;}
+.ColRight {float:left; width:46%; margin:1% 0 0 0; padding:1% 2% 1% 2%;}
+}
+.WarningPopUp 
+{display:block; padding:5%; text-align:center; color: #e70606;}
+
+.error{
+    color: #aba2a3;
+    background-color: #c4afaf;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
